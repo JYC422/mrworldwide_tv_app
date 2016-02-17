@@ -8,13 +8,15 @@
 
 Video.delete_all
 
+Video.delete_all
+
 Video.create(
-  embed_url:          "Uq7ZrUBlcQA",
-  title:              "Give Me Everything",
-  album:              "Planet Pit",
-  featured_artists:   "Ne-Yo, Afrojack, Nayer",
-  released_on:        Date.parse("6-5-2011"),
-  tags:               "#dale"
+  embed_url:        "EPo5wWmKEaI",
+  title:            "Give Me Everything",
+  album:            "Planet Pit",
+  featured_artists: "Ne-Yo, Afrojack, Nayer",
+  released_on:      Date.parse("6-5-2011"),
+  tags:             "#dale"
 )
 
 Video.create(
@@ -25,7 +27,7 @@ Video.create(
   released_on:      Date.parse("25-12-2011"),
   tags:             "#dale"
 )
-​
+
 Video.create(
   embed_url:        "SmM0653YvXU",
   title:            "Rain Over Me",
@@ -34,7 +36,7 @@ Video.create(
   released_on:      Date.parse("22-6-2011"),
   tags:             "#dale #marcanthony"
 )
-​
+
 Video.create(
   embed_url:        "hHUbLv4ThOo",
   title:            "Timber",
